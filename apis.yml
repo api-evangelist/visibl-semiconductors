@@ -1,8 +1,25 @@
 aid: visibl-semiconductors
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visibl-semiconductors.png
 name: Visibl Semiconductors
-description: Visibl Semiconductors is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Visibl Semiconductors builds an AI-enabled coordination layer for custom
+  chip design teams, positioning itself as "the first coordination layer for chip design."
+  Its platform continuously monitors specifications against implementation to detect
+  drift early, investigates issues by assembling evidence bundles, and proposes fixes
+  through AI agents that require human approval before any change is deployed. The company
+  frames this as a faster path to custom silicon and is backed by Y Combinator. As of
+  this enrichment pass the company publishes a marketing website only and exposes no
+  public API, developer portal, SDKs, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/visibl-semiconductors/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Semiconductors
+- Chip Design
+- Artificial Intelligence
+- Electronic Design Automation
+- Custom Silicon
+- AI Agents
 apis: []
+common:
+- type: DomainSecurity
+  url: security/visibl-semiconductors-domain-security.yml
+- type: Website
+  url: https://www.visiblsemi.com
+- type: Contact
+  url: https://www.visiblsemi.com/contact
+- type: TermsOfService
+  url: https://www.visiblsemi.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.visiblsemi.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/visiblsemi
+- type: X
+  url: https://x.com/visiblsemi
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
